@@ -1,0 +1,37 @@
+<svg viewBox="0 0 520 210" xmlns="http://www.w3.org/2000/svg">
+  <!-- Terminal window -->
+  <rect fill="#0d1117" width="520" height="210" rx="10" />
+
+  <!-- Title bar -->
+  <rect fill="#161b22" width="520" height="36" rx="10" />
+  <rect fill="#161b22" y="20" width="520" height="16" />
+
+  <!-- Traffic lights -->
+  <circle fill="#ff5f57" cx="22" cy="18" r="6" />
+  <circle fill="#febc2e" cx="42" cy="18" r="6" />
+  <circle fill="#28c840" cx="62" cy="18" r="6" />
+
+  <!-- Title -->
+  <text fill="#8b949e" x="260" y="23" text-anchor="middle" font-family="monospace" font-size="12">subhan@github — zsh</text>
+
+  <!-- Line 1: whoami -->
+  <text fill="#C8FF00" x="20" y="68" font-family="monospace" font-size="14">$</text>
+  <text fill="#c9d1d9" x="38" y="68" font-family="monospace" font-size="14">whoami</text>
+
+  <!-- Line 2: name output -->
+  <text fill="#C8FF00" x="20" y="93" font-family="monospace" font-size="14" font-weight="bold">Subhan Ahmed</text>
+  <text fill="#8b949e" x="152" y="93" font-family="monospace" font-size="14">— Software Engineer</text>
+
+  <!-- Line 3: cat bio -->
+  <text fill="#C8FF00" x="20" y="128" font-family="monospace" font-size="14">$</text>
+  <text fill="#c9d1d9" x="38" y="128" font-family="monospace" font-size="14">cat bio.txt</text>
+
+  <!-- Line 4: bio output -->
+  <text fill="#8b949e" x="20" y="153" font-family="monospace" font-size="14">Engineer. UI purist. Probably over-engineered this too.</text>
+
+  <!-- Line 5: empty prompt with blinking cursor -->
+  <text fill="#C8FF00" x="20" y="188" font-family="monospace" font-size="14">$</text>
+  <rect x="38" y="175" width="9" height="16" rx="1" fill="#C8FF00">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.49;0.5;1" dur="1s" repeatCount="indefinite" />
+  </rect>
+</svg>
